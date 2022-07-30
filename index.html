@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+    <link rel="font" href="src/Now-Regular.otf">
+
+    <script src="script.js"></script>
+
+    <title>Fuad</title>
+</head>
+<body onload="load()">
+				<div id="load"><img src="src/Ghost.gif" alt="Loding..."><div>Wait a moment baal..!!</div></div>
+		<div id="h1">
+						<div class="nm" id="nm" >
+			
+						</div>
+                        <div id="bio"></div>
+						<div id="small">
+										<div id="hi">Hi!<br/></div>
+										<div id="im">I'm<br/></div>
+						</div> <!-- -->
+		</div>
+		<div id="hint" onclick="abouttoggle()">About Me</div>
+        <div class="wrapper" id="wrapper"></div>
+        <div class="box-wrap">
+    		<img src="src/profile.jpeg" alt="Fuad Image" class="profile" id="profile">
+    				
+    		<div class="box" id="box">
+                <div class="about">
+                <div class="hv">
+                    <div class="close-btnHint" id="close-btnHint">Close</div>
+                    <div class="close-btn" id="close-btn" onclick="abouttoggle()">&times;</div>
+                </div>
+            <div class="title">About me</div>
+            <div class="info-box">
+                I like to call myself as a <strong>programmer.</strong> I've worked with C, C++, C#, Java, Python, Php, JavaScript and Lua. 
+                Mostly I do my projects with C++.
+                Currently I'm working on my own game Engine named <strong>Xebec.</strong>
+                Then I'm a <strong>Sketch artist.</strong>
+                I make human portraits and still life drawings and do cartoon comics stuffs.
+                And finally I would like to adress myself as a <strong> Content creator.</strong>
+            </div>
+        
+            
+            </div>
+        </div>
+
+
+    				
+    				
+    </div>
+       
+    <div class="contact-btn" id="contact-btn" onclick="contacttoggle()">
+        Contact
+    </div>
+    <div class="subscribe-btn" id="subscribe-btn" onclick="subscribetoggle()">
+        Subscribe
+    </div>
+    <div class="contactbox" id="contactbox">
+            <h1>Contact me</h1>
+            <form action="https://formspree.io/f/myylwgej" method="POST">
+                <input type="text" placeholder="Your name" name="name" required>
+                <input type="text" placeholder="Your Email" name="email" required>
+                <textarea placeholder="Enter Message..." name="message" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+            <div class="close-btn" onclick="defaults()">&times;</div>
+        </div>
+        
+            
+        <div class="subscribebox" id="subscribebox">
+        				
+                <form action="https://formspree.io/f/mwkaokab" method="POST"> 
+                				<label for="text" id="cap" class="cap">Get updates from me</label>
+                    <input type="text" placeholder="Your Email" name="email" required>
+                    <input type="submit" value="Subscribe">
+                </form>
+                <div class="close-btn2" onclick="defaults2()">&times;</div>
+            
+        </div>
+    <div id="socials">
+ 
+            
+        
+            <span class="github" id="github">
+                <a href="https://github.com/itsfuad" target="_blank">
+                    <img src="src/githublogo.svg" height="30px" width="30px" alt="Github logo">
+                </a>
+            </span>
+
+            <span class="fb" id="fb">
+                <a href="https://facebook.com/therealfuad" target="_blank">
+                    <img src="src/fblogo.svg" height="30px" width="30px" alt="Facebook logo">
+                </a>
+            </span>
+
+            <span class="ig" id="ig">
+                <a href="https://instagram.com/_therealfuad" target="_blank">
+                    <img src="src/iglogo.svg" height="30px" width="30px" alt="Instagram logo">
+                </a>
+            </span>
+        </div>
+
+        <footer>© 2021 Fuad Hasan</footer>
+</body>
+</html>
